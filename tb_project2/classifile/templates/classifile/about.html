@@ -1,0 +1,9 @@
+{% extends "classifile/base.html" %}
+{% block content %}
+    <h1>About Page</h1>
+    <p1>CLASSIFILE is a web application which has the ability to function both as a blog as well as a file manager. The blog feature enables users to easily communicate amongst themselves if needed while also having the ability to safely store the files on the web app. The application may serve as a secondary source of storage for the user’s files and data while also granting them the ability to create blog-type posts for the purpose of broadcasting information among themselves.
+</p1>
+    <p1>With CLASSIFILE, you can safely store your files while also having the chance to communicate with fellow users!</p1>
+
+    <a class="article-title" <font color="#111111" href="{% url 'file-create' %}"><p1><u>Start uploading your files/posts here!</u></p1></a>
+{% endblock content %}
